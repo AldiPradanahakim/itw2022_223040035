@@ -1,0 +1,45 @@
+body {
+  background-color: white;
+  background-image: url(background.png);
+  background-repeat: repeat-x;
+  font-family: georgia;
+}
+
+h1 {
+  font-family: comic sans ms;
+  font-size: 60px;
+  color: darkblue;
+  text-align: center;
+}
+
+h3 a {
+  color: rgb(255, 0, 0);
+}
+
+h3 a:hover {
+  color: rgb(255, 255, 255);
+}
+
+h3 {
+  text-align: center;
+}
+
+h4 {
+  font-style: italic;
+  text-align: center;
+}
+
+.paragraf-1,
+.paragraf-2 {
+  text-align: center;
+}
+
+.paragraf-1 {
+  color: orangered;
+}
+
+.paragraf-2 a:hover {
+  font-family: comic sans ms;
+  background-color: blue;
+  color: white;
+}

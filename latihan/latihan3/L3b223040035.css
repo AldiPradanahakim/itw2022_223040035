@@ -1,0 +1,29 @@
+body {
+  background-color: aqua;
+  font-family: georgia;
+}
+
+h1 {
+  font-family: comic sans ms;
+  font-size: 60px;
+  color: darkblue;
+  text-align: center;
+}
+
+h3 a {
+  color: white;
+}
+
+h4 {
+  float: right;
+  font-style: italic;
+}
+
+.paragraf-1,
+.paragraf-2 {
+  text-align: center;
+}
+
+.paragraf-1 {
+  color: orangered;
+}
