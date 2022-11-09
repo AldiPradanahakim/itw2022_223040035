@@ -1,0 +1,173 @@
+body {
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  background-color: darkred;
+  color: white;
+  height: 100px;
+}
+
+.header-logo {
+  float: left;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  padding: 25px 45px;
+}
+
+.header-list li {
+  float: right;
+  padding: 20px 5px;
+  padding-right: 30px;
+  text-decoration: none;
+}
+
+.header-list li a {
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 12px 34px;
+  font-size: 13px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+}
+
+.hero {
+  height: 650px;
+  background-image: url(img/hero.png);
+  background-size: cover;
+  background-position: 0 -20px;
+}
+
+.conten .penulis {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.conten .penulis a {
+  color: red;
+  text-decoration: none;
+}
+
+.hero-football {
+  width: 1000px;
+  height: 500px;
+  background-image: url(img/hero2.png);
+  background-size: cover;
+  background-position: 0 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  margin-bottom: 10px;
+  padding: 15px;
+  word-spacing: 5px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+.heroo-football {
+  width: 1000px;
+  height: 500px;
+  background-image: url(img/lapangan.jpg);
+  background-size: cover;
+  background-position: 0 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+.heroo-football {
+  width: 1000px;
+  height: 500px;
+  background-image: url(img/wasit.jpg);
+  background-size: cover;
+  background-position: 0 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.list li a {
+  text-decoration: none;
+  list-style-type: georgian;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  color: blue;
+}
+
+.list li {
+  list-style-type: disc;
+}
+
+/*contact*/
+.contact {
+  margin: 100px auto;
+  width: 90%;
+  height: 650px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(img/contact\ us.png);
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px 0;
+  padding-bottom: 3px;
+}
+
+.contact h1 {
+  color: #fff;
+  padding: 80px;
+  font-size: 60px;
+}
+
+.contact a {
+  color: white;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 12px 34px;
+  font-size: 20px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+}
+
+.source {
+  color: grey;
+  font-style: italic;
+  padding-left: 80px;
+}
+
+.source a {
+  color: grey;
+  text-decoration-line: none;
+}
+
+.footer {
+  background-color: grey;
+  padding: 10px;
+}
+
+.footer .copy {
+  color: white;
+  text-align: center;
+  font-size: 14px;
+}
