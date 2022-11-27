@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modern CSS</title>
+    <style>
+      body {
+        width: 1000px;
+        height: 1000px;
+      }
+      .kotak1 {
+        width: 100px;
+        height: 100px;
+        background-color: black;
+        margin: auto;
+        border-radius: 50% 0 50% 0;
+        opacity: 0.5;
+        position: relative;
+        z-index: 10;
+      }
+
+      p {
+        position: relative;
+        top: -100px;
+      }
+
+      .kotak2 {
+        width: 200px;
+        height: 200px;
+        background-image: url(logo.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: auto;
+        box-shadow: 10px 10px 5px black, 20px 20px 5px red, 30px 30px 5px yellow;
+        opacity: 0.3;
+        transition: 3s 5s;
+      }
+
+      .kotak2:hover {
+        border-radius: 50%;
+        background-color: aqua;
+        transform: rotate(3600deg);
+      }
+
+      h1 {
+        text-align: center;
+        margin-top: 50px;
+        font-family: Arial;
+        font-size: 50px;
+        text-shadow: 10px 10px 10px red;
+      }
+
+      .kotak3 {
+        width: 200px;
+        height: 200px;
+        background-color: black;
+        margin: auto;
+        transition: 3s;
+      }
+
+      .kotak3:active {
+        transform: rotate(3600deg);
+        background-image: url(foto.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="kotak1"></div>
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero excepturi
+      eos aliquid fugiat consectetur quibusdam commodi, nulla non maiores
+      laboriosam! Reprehenderit porro officiis, quis ab aperiam minus sed quae
+      quam.
+    </p>
+    <div class="kotak2"></div>
+    <h1>Aldi Pradana Hakim</h1>
+    <div class="kotak3"></div>
+  </body>
+</html>
